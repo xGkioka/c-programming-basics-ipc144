@@ -1,0 +1,28 @@
+1) We can store 256 different values 
+2) Float and Dooble are floating-point data types 
+    used to store numbers with demical points in programming
+    key differences: storage size,precision and range of values
+    similarities: floating-Point types,Approximation
+3) What is the best data type to store each of the values below?
+The number of people living in Canada : double
+pi to 2 decimal places :float
+The answer to a multiple choice question where the choices are A,B,C or D : char
+pi to 10 decimal places: double
+Number of muffins sold:int
+Taxes due on a bottle of pop: float
+The number of people living in the entire world:double
+4) Mantissa forms the significant digits of the value the exponenct determins the numbers of 0's
+
+Programming problems
+
+#include<stdio.h>
+
+int main(){
+
+    printf("The itsy bitsy spider crawled up the water spout\n");
+     printf(".  The itsy bitsy spider crawled up the water spout\n");
+      printf(".      The itsy bitsy spider crawled up the water spout\n");
+       printf("\tThe itsy bitsy spider crawled up the water spout\n");
+
+return 0;
+}

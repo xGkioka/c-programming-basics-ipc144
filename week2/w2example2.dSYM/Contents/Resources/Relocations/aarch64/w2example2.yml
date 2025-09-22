@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/xenofongk/Desktop/Seneca /IPC 144/week2/w2example2'
+relocations:     []
+...

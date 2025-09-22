@@ -1,0 +1,121 @@
+/***************************************************************** 
+
+    File: lab1practice1.c
+
+    Author: [Xenofon Gkioka]
+    Seneca email: [xgkioka@myseneca.ca]
+
+    To compile program in codespaces, in terminal pane type:
+        gcc -Wall lab1practice1.c
+    To run program in codespaces, in terminal pane type:
+        ./a.out
+        
+***************************************************************/
+
+#include<stdio.h>
+
+int main(void){
+
+    float diameter;
+    float circumference;
+    float radius;
+    float area;
+
+   int PI = 3.14159;
+
+    printf("Please enter a radius of a circle\n");
+    scanf("%f", &radius);
+    
+//calculations
+
+diameter = 2 * radius;
+circumference = PI * diameter;
+area = PI *(radius)*2;
+
+printf("The diameter of a circle is %2f\n", diameter);
+printf("The circumference of the circle is %2f\n", circumference);
+printf("the area of the circle is %2f\n", area);
+
+return 0;
+}
+
+
+2
+
+/***************************************************************** 
+
+    File: lab1practice2.c
+
+    Author: [xgkioka]
+    Seneca email: [xgkioka@myseneca.ca]
+    
+    To compile program in codespaces, in terminal pane type:
+        gcc -Wall lab1practice2.c
+    To run program in codespaces, in terminal pane type:
+        ./a.out
+        
+***************************************************************/
+
+#include <stdio.h>
+
+int main() {
+   
+int a;
+int b;
+int c;
+int sum;
+
+ printf("Please enter the first number:\n");
+    scanf("%d", &a);
+printf("Please enter the second number:\n");
+    scanf("%d", &b);
+printf("Please enter the first number:\n");
+    scanf("%d", &c);
+
+
+sum = a + b + c;
+
+printf("the average of %d, %d, and %d is %d",a, b ,c , sum);
+    return 0;
+}
+
+/***************************************************************** 
+
+    File: lab1practice3a.c
+
+    Author: [Your Name]
+    Seneca email: [Your Seneca email address]
+
+    To compile program in codespaces, in terminal pane type:
+        gcc -Wall lab1practice3a.c
+    To run program in codespaces, in terminal pane type:
+        ./a.out
+        
+***************************************************************/
+
+#include <stdio.h>
+
+int main() {
+    
+    double test1;
+    double test2;
+    double test3;
+    double sum;
+
+
+     printf("Test1:\n");
+    scanf("%lf", &test1);
+printf("test2:\n");
+    scanf("%lf", &test2);
+printf("test3:\n");
+    scanf("%lf", &test3);
+    
+
+    printf("Please enter the percentage grade of the first test:")
+
+
+
+
+    return 0;
+}
+
